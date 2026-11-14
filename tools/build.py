@@ -121,6 +121,7 @@ def build():
             'hero': emit('moonlit-her.glb', (ROOT / 'assets' / 'hero' / 'moonlit-her.glb').read_bytes()),
             'warden': emit('warden.glb', (ROOT / 'assets' / 'bosses' / 'warden.glb').read_bytes()),
             'nyxara': emit('nyxara.glb', (ROOT / 'assets' / 'bosses' / 'nyxara.glb').read_bytes()),
+            'vesthra': emit('vesthra.glb', (ROOT / 'assets' / 'bosses' / 'vesthra.glb').read_bytes()),
             'moonstag': emit('moonstag.glb', (ROOT / 'assets' / 'mounts' / 'moonstag.glb').read_bytes()),
             'gryphon': emit('gryphon.glb', (ROOT / 'assets' / 'mounts' / 'gryphon.glb').read_bytes()),
             'godling': emit('godling.glb', (ROOT / 'assets' / 'creeps' / 'godling.glb').read_bytes()),
